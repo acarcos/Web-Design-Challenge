@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Milky Way Elements Distribution</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <nav class="navbar navbar-light" style="background-color: #c7c5df;">
+        <button class="btn default">
+            <a href="index.html">Stargazers</a>        
+        </button>
+  
+        <ul>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Plots
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="FigureOne.html">Figure 1</a>
+                    <a class="dropdown-item" href="FigureTwo.html">Figure 2</a>
+                    <a class="dropdown-item" href="FigureThree.html">Figure 3</a>
+                    <a class="dropdown-item" href="FigureFour.html">Figure 4</a>
+                </div>
+            </li>
+            <li>
+                <p><a href="comparisons.html" class="text-dark">Comparison</a></p>
+            </li>
+            <li>
+                <p><a href="gals_data.html" class="text-dark">Data</a></p>
+            </li>
+        </ul>
+    </nav>
+
+    <!--This is where graphs display-->
+
+    <div class="container"> 
+            
+        <div class="row"> 
+            <div class="col-md-8">
+                <div class="box">
+                    <h3>About this project...</h3>
+                    <hr>
+                    <br>
+                    <img src="./assets/ESA_Gaia_Milky_Way_Anatomy.png" id="mainfig" alt="main_fig" class="img-thumbnail">
+                    <p class="card-text"><small class="text-muted">Image taken from <a href="https://sci.esa.int/web/gaia/-/58206-anatomy-of-the-milky-way" target="_blank">ESA</a></small></p>  
+                    <p>
+                        To learn about the evolution of our Galaxy and how all that we possess is formed, we study the distribution of star populations and the elements they possess. For this study, 
+                        the Milky Way is divided by components (see Figure) such as the halo, bulge and disk (thin and thick). And here, we are going
+                        to study the elements of Oxigen (O), Nitrogen (N), Carbon (C) and Iron (Fe). 
+                    </p>                  
+                </div>
+            </div>
+            
+            <!--Second Column in this Row-->
+            
+            <div class="col-md-4">
+                <div id="visual"class="box">
+                    <h3>Visualizations</h3>
+                    <hr>
+                    <br>
+                    <img src="./assets/Fig1_C.png" alt="..." style="width: 48%" class="img-thumbnail">
+                    <img src="./assets/Fig2_N.png" alt="..." style="width: 48%" class="img-thumbnail">
+                    <img src="./assets/Fig3_O.png" alt="..." style="width: 48%" class="img-thumbnail">
+                    <img src="./assets/Fig4_Fe.png" alt="..." style="width: 48%" class="img-thumbnail">            
+                </div>
+            </div>
+        
+        </div> 
+    </div>
+            
+    <!-- Footer -->
+    <div class="footer">
+        <p>&copy Copyright Coding Bootcamp 2020</p>
+    </div>       
+    
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>

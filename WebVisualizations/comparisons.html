@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All elements</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!--NavBar for everyone!-->
+    <nav class="navbar navbar-light" style="background-color: #c7c5df;">
+        <button class="btn default">
+          <a href="index.html">Stargazers</a>        
+        </button>
+  
+        <ul>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Plots
+            </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="FigureOne.html">Figure 1</a>
+                    <a class="dropdown-item" href="FigureTwo.html">Figure 2</a>
+                      <a class="dropdown-item" href="FigureThree.html">Figure 3</a>
+                        <a class="dropdown-item" href="FigureFour.html">Figure 4</a>
+                </div>
+          </li>
+          <li>
+            <p><a href="comparisons.html" class="text-dark">Comparison</a></p>
+          </li>
+          <li>
+            <p><a href="gals_data.html" class="text-dark">Data</a></p>
+          </li>
+        </ul>
+      </nav>
+
+      <!--Comparison graphs-->
+
+        <section>
+            <br>
+            <h3> Visualization of C,N,O,Fe elements in Star Populations</h3>
+            <hr>
+            <p>
+              Since the elements are produced in stars, here is a quick view of their distribution in different 
+              components of the Milky Way. The x-label refers to a radial distance, where close to zero
+              is near the center of the Galaxy, and higher values refers to disk (which is a plane) and halo (being above the disk).
+               The y-label are the mean values of each element per Galaxy region.
+              Their distribution also help us to know the motion of stellar population and their influence in the evolution of 
+              supernovas and solar systems.
+            </p>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="box">
+                            <img src="./assets/Fig1_C.png" alt="FigOne" class="img-thumbnail">
+                        </div>
+                    </div>
+              
+                    <div class="col-md-6">
+                        <img src="./assets/Fig2_N.png" alt="FigTwo" class="img-thumbnail">
+                    </div>
+                </div>
+              
+                <div class='row'>
+                    <div class="col-md-6">
+                        <div class="box">
+                            <img src="./assets/Fig3_O.png" alt="FigThree" class="img-thumbnail">
+                        </div>
+                    </div>
+              
+                    <div class="col-md-6">
+                        <div class="box">
+                            <img src="./assets/Fig4_Fe.png" alt="FigFour" class="img-thumbnail">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+
+<!--Some stuff to display ccs and bootstrap style-->    
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>
