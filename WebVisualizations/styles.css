@@ -83,6 +83,18 @@ section h3{
     margin-left: 5%; 
 }
 
+.table-responsive{
+    height:400px;
+    overflow:scroll;
+}
+
+thead tr:nth-child(1) th{
+    background: white;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
 /* For every image */
 img {
     margin-right: auto;
