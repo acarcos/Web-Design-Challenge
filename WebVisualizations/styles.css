@@ -86,9 +86,9 @@ section h3{
 .table-responsive{
     height:400px;
     overflow:scroll;
-}
+  }
 
-thead tr:nth-child(1) th{
+  thead tr:nth-child(1) th{
     background: white;
     position: sticky;
     top: 0;
